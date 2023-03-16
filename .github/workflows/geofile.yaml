@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3.3.0
+      - uses: actions/checkout@v3.4.0
       - name: Fetch Geofile to latest version
         run: |
           rm -f bin/geofile-fetchlog.txt bin/geoip.dat bin/geosite.dat
